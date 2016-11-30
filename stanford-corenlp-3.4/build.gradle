@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+configurations.maybeCreate("default")
+artifacts.add("default", file('stanford-corenlp-3.4.jar'))
+
+dependencies {
+    compile files('stanford-corenlp-3.4-models.jar')
+}
