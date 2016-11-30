@@ -10,9 +10,6 @@ import java.util.Properties;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
-//import edu.stanford.nlp.rnn.RNNCoreAnnotations; //symbol not found?
-
-
 public class SentimentAnalyzer {
     private int sentiment = 0;
     private Annotation a;
