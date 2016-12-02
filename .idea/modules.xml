@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MORGAiN.iml" filepath="$PROJECT_DIR$/MORGAiN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MORGAiN.iml" filepath="$PROJECT_DIR$/MORGAiN.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stanford-corenlp-3.4/stanford-corenlp-3.4.iml" filepath="$PROJECT_DIR$/stanford-corenlp-3.4/stanford-corenlp-3.4.iml" />
       <module fileurl="file://$PROJECT_DIR$/stanford-corenlp-3.7.0/stanford-corenlp-3.7.0.iml" filepath="$PROJECT_DIR$/stanford-corenlp-3.7.0/stanford-corenlp-3.7.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/stanford-corenlp-3.7.0-models/stanford-corenlp-3.7.0-models.iml" filepath="$PROJECT_DIR$/stanford-corenlp-3.7.0-models/stanford-corenlp-3.7.0-models.iml" />
     </modules>

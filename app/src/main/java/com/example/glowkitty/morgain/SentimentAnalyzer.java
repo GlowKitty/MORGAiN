@@ -26,7 +26,7 @@ public class SentimentAnalyzer {
     private void startAnnotate(String input) {
         //start nlp pipeline
         Properties props = new Properties();
-        props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref, sentiment");
+        props.setProperty("annotators", "tokenize, ssplit, parse, sentiment");
         p = new StanfordCoreNLP(props);
 
         a = new Annotation(input);
