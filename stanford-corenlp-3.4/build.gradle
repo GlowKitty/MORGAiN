@@ -3,14 +3,8 @@ apply plugin: 'java'
 configurations.maybeCreate("default")
 artifacts.add("default", file('stanford-corenlp-3.4.jar'))
 artifacts.add("default", file('stanford-corenlp-3.4-models.jar'))
-
-/*processResources {
-    file('stanford-corenlp-3.4-models.jar')
-}*/
-
+artifacts.add("default", file('emjl-0.23.jar'))
 
 dependencies {
-    file('emjl-0.23.jar')
-    targetCompatibility = 1.7
-    sourceCompatibility = 1.7
+    //file('emjl-0.23.jar')
 }

@@ -1,1 +1,1 @@
-include ':app', ':stanford-corenlp-3.4', ':lib'
+include ':app', ':stanford-corenlp-3.4'

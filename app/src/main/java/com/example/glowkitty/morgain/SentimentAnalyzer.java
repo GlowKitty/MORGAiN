@@ -10,6 +10,7 @@ import java.util.Properties;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
+
 public class SentimentAnalyzer {
     private int sentiment = 0;
     private Annotation a;
